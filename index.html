@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Yusuf Sönmez, Orkun Nuri Yalçınkaya" />
+    <meta name="description" content="web tasarım ve pazarlama" />
+    <meta
+      name="keywords"
+      content="web,tasarım,dizayn,programlama,yazılım,geliştirme"
+    />
+    <link href="img/Ekran görüntüsü 2023-12-18 234914.png" rel="icon" />
+    <title>Bigbox</title>
+    <style>
+      @import url("css/all.css");
+    </style>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom/extra.css" />
+  </head>
+
+  <body id="page-body">
+    <!-- navigation start-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+      <div class="container-fluid">
+        <a
+          href="#page-body"
+          class="navbar-brand text-uppercase text-warning"
+          title="new design website link"
+          ><img
+            src="/img/Ekran görüntüsü 2023-12-18 234914.png"
+            style="width: 2rem; height: 2rem"
+            alt=""
+            class="me-2"
+          />BIGBOX</a
+        >
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#myNavbar"
+          aria-controls="myNavbar"
+          aria-label="menüyü açma kapama butonu"
+          aria-expanded="false"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="myNavbar"
+          aria-labelledby="myLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="myLabel">Menü</h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Kapat"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto text-uppercase py-lg-2">
+              <li class="nav-item">
+                <a href="#services" class="nav-link btn-close-canvas"
+                  >Hizmetler</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link btn-close-canvas"
+                  >Portföy</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link btn-close-canvas"
+                  >Hakkımızda</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#team" class="nav-link btn-close-canvas">Ekip</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link btn-close-canvas"
+                  >İletişim</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navigation end-->
+
+    <!--header start-->
+    <header class="backImage text-white text-center">
+      <div class="container">
+        <div class="backImage-sub mb-4">Stüdyomuza Hoş Geldin!</div>
+        <div class="backImage-heading text-uppercase">
+          Tanıştığımıza Memnun Olduk
+        </div>
+        <a
+          href="#services"
+          class="btn btn-danger btn-lg p-lg-4 text-uppercase fw-bolder"
+          >Daha Fazla Anlat</a
+        >
+      </div>
+    </header>
+    <!--header end-->
+
+    <!-- services start -->
+    <section id="services" class="mySection">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="s-heading text-uppercase fw-bold">Hizmetler</h2>
+          <h3 class="s-subheading text-muted">
+            BigBox, yaratıcı ve teknolojik çözümlerle sizi buluşturan bir
+            stüdyodur. İşte sunduğumuz temel hizmetler:
+          </h3>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div
+              class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center m-auto"
+              style="width: 8rem; height: 8rem"
+              aria-hidden="true"
+            >
+              <i class="bi bi-columns-gap" style="font-size: 4.5rem"></i>
+            </div>
+            <h4 class="my-3 fw-bold">Web Tasarımı</h4>
+            <p class="text-muted">
+              Modern ve kullanıcı dostu web siteleri tasarlıyoruz. Markanızı en
+              iyi şekilde temsil eden özgün tasarımlarla çevrimiçi varlığınızı
+              güçlendiriyoruz.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center m-auto"
+              style="width: 8rem; height: 8rem"
+              aria-hidden="true"
+            >
+              <i class="bi bi-controller" style="font-size: 4.5rem"></i>
+            </div>
+            <h4 class="my-3 fw-bold">Oyun Geliştirme</h4>
+            <p class="text-muted">
+              Oyun dünyasında iz bırakın! Deneyimli oyun geliştiricilerimiz,
+              eğlenceli ve etkileşimli oyunlar tasarlayarak hedef kitlenizi
+              etkileyen deneyimler sunuyor.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center m-auto"
+              style="width: 8rem; height: 8rem"
+              aria-hidden="true"
+            >
+              <i class="bi bi-flower1" style="font-size: 4.5rem"></i>
+            </div>
+            <h4 class="my-3 fw-bold">İllüstrasyon</h4>
+            <p class="text-muted">
+              Görsel anlatımın gücüne inanıyoruz. İhtiyacınıza uygun özgün
+              illüstrasyonlarla projelerinize renk ve karakter katıyoruz.
+            </p>
+          </div>
+        </div>
+        <div class="row text-center justify-content-evenly mt-4">
+          <div class="col-md-4">
+            <div
+              class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center m-auto"
+              style="width: 8rem; height: 8rem"
+              aria-hidden="true"
+            >
+              <img
+                src="./img/b.png"
+                style="height: 4.5rem; width: 4.5rem"
+                alt=""
+              />
+            </div>
+            <h4 class="my-3 fw-bold">Makine Öğrenmesi Çözümleri</h4>
+            <p class="text-muted">
+              Veri madenciliği ve analitik yeteneklerimizle, makine öğrenmesi
+              algoritmalarını kullanarak iş süreçlerinizi optimize ediyoruz.
+              Verilerinizden anlamlı sonuçlar çıkarıyoruz.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center m-auto"
+              style="width: 8rem; height: 8rem"
+              aria-hidden="true"
+            >
+              <i class="bi bi-journal-check" style="font-size: 4.5rem"></i>
+            </div>
+            <h4 class="my-3 fw-bold">Özel Projeler ve Danışmanlık</h4>
+            <p class="text-muted">
+              Size özel ihtiyaçlarınıza yönelik çözümler sunuyoruz. Danışmanlık
+              hizmetimizle, projelerinizin başarılı bir şekilde hayata geçmesine
+              yardımcı oluyoruz.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services end -->
+
+    <!-- portfolio start -->
+    <section id="portfolio" class="mySection bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="s-heading text-uppercase">Portföy</h2>
+          <h3 class="s-subheading text-muted">
+            Yaratıcılığımız ve teknik uzmanlığımızla oluşturduğumuz çeşitli
+            projeleri keşfedin.
+          </h3>
+        </div>
+        <div class="row gy-4">
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal1" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white">
+                    <i class="bi bi-plus-lg"></i>
+                  </div>
+                </div>
+                <img src="img/portfolio/1.png" alt=".." class="img-fluid" />
+              </a>
+              <div class="p-caption text-center bg-white p-4">
+                <div class="pc-heading">Karaprens</div>
+                <div class="pc-subheading text-muted">Illüstrasyon</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal2" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white">
+                    <i class="bi bi-plus-lg"></i>
+                  </div>
+                </div>
+                <img src="img/Zootivity.jpeg" alt=".." class="img-fluid" />
+              </a>
+              <div class="p-caption text-center bg-white p-4">
+                <div class="pc-heading">Bigbox Ent.</div>
+                <div class="pc-subheading text-muted">Oyun Tasarımı</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal3" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white">
+                    <i class="bi bi-plus-lg"></i>
+                  </div>
+                </div>
+                <img src="img/quizle.jpeg" alt=".." class="img-fluid" />
+              </a>
+              <div class="p-caption text-center bg-white p-4">
+                <div class="pc-heading">PixelPulse</div>
+                <div class="pc-subheading text-muted">Web Tasarımı</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal4" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white">
+                    <i class="bi bi-plus-lg"></i>
+                  </div>
+                </div>
+                <img src="img/DMRF-Unet.jpeg" alt=".." class="img-fluid" />
+              </a>
+              <div class="p-caption text-center bg-white p-4">
+                <div class="pc-heading">SureDetect</div>
+                <div class="pc-subheading text-muted">Makine Öğrenmesi</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal5" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white">
+                    <i class="bi bi-plus-lg"></i>
+                  </div>
+                </div>
+                <img
+                  src="img/machineLearning.jpeg"
+                  alt=".."
+                  class="img-fluid"
+                />
+              </a>
+              <div class="p-caption text-center bg-white p-4">
+                <div class="pc-heading">Medipol</div>
+                <div class="pc-subheading text-muted">Makine Öğrenmesi</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal6" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white">
+                    <i class="bi bi-plus-lg"></i>
+                  </div>
+                </div>
+                <img src="img/E-ticaret.jpeg" alt=".." class="img-fluid" />
+              </a>
+              <div class="p-caption text-center bg-white p-4">
+                <div class="pc-heading">Ovam Market</div>
+                <div class="pc-subheading text-muted">Web Tasarımı</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio end -->
+
+    <!-- about start -->
+    <section id="about" class="mySection">
+      <div class="container">
+        <div class="text-center mb-5 pb-3">
+          <h2 class="s-heading text-uppercase fw-bold">Hakkımızda</h2>
+          <h3 class="s-subheading text-muted">
+            Kuruluşumuzdan bu yana izlediğimiz yolu inceleyebilir ve bizi biraz
+            daha tanıyabilirsiniz.
+          </h3>
+        </div>
+        <ul class="timeline">
+          <li>
+            <div class="t-image">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/about/1.png"
+                alt=".."
+              />
+            </div>
+            <div class="t-panel">
+              <div class="t-heading">
+                <h4>Ekim 2018</h4>
+                <h4 class="subheading">Kuruluş ve Temeller</h4>
+              </div>
+              <div class="t-body">
+                <p class="text-muted">
+                  BigBox Studio, üniversitede okuyan bir grup arkadaş tarafından
+                  İstanbul Topkapı Üniversitesi'nde bir araya gelerek kuruldu.
+                  Bu dönemde, ekip, yazılım geliştirme tutkusunu paylaşıyor ve
+                  projeler üzerinde birlikte çalışıyordu. Temel değerler
+                  belirlendi ve gelecekteki başarı için temeller atıldı.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="t-inverted">
+            <div class="t-image">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/about/2.jpg"
+                alt=".."
+              />
+            </div>
+            <div class="t-panel">
+              <div class="t-heading">
+                <h4>Nisan 2019</h4>
+                <h4 class="subheading">İlk Projeler ve Tanınırlık</h4>
+              </div>
+              <div class="t-body">
+                <p class="text-muted">
+                  BigBox Studio'nun ilk yıllarında, ekip üniversite projeleri ve
+                  yerel işletmelerle işbirlikleri yaparak ilk deneyimlerini
+                  kazandı. Bu dönemde, stüdyo daha fazla tanınırlık kazanmaya
+                  başladı ve yazılım geliştirme konusundaki yetenekleri ön plana
+                  çıktı.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="t-image">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/about/3.jpg"
+                alt=".."
+              />
+            </div>
+            <div class="t-panel">
+              <div class="t-heading">
+                <h4>Kasım 2020</h4>
+                <h4 class="subheading">
+                  Profesyonel Genişleme ve Sektördeki İlk Adımlar
+                </h4>
+              </div>
+              <div class="t-body">
+                <p class="text-muted">
+                  BigBox Studio, profesyonel bir hizmet sağlayıcı olarak
+                  konumlanmak için genişleme adımları attı. Sektördeki ilk
+                  müşterilerle çalışmaya başlandı ve stüdyo, çeşitli sektörlerde
+                  yazılım hizmetleri sunarak müşteri portföyünü genişletti. Bu
+                  dönemde, stüdyo uzmanlık alanlarını belirleyerek sektörde daha
+                  fazla bilinirlik elde etti.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="t-inverted">
+            <div class="t-image">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/about/4.jpg"
+                alt=".."
+              />
+            </div>
+            <div class="t-panel">
+              <div class="t-heading">
+                <h4>2021-Günümüz</h4>
+                <h4 class="subheading">Büyüme ve İnovasyon</h4>
+              </div>
+              <div class="t-body">
+                <p class="text-muted">
+                  BigBox Studio, sürekli büyüme ve inovasyon odaklı bir
+                  yaklaşımla sektördeki liderliğini sürdürüyor. Müşterilere özel
+                  çözümler sunmaya devam ederken, yeni teknolojilere ve pazar
+                  taleplerine uyum sağlamak için sürekli gelişiyor. Günümüzde,
+                  BigBox Studio, sektördeki önemli oyunculardan biri olarak
+                  yazılım hizmetleri konusunda müşterilere değer katmayı
+                  sürdürüyor.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="t-inverted">
+            <div class="t-image">
+              <h4>
+                Hikayemizin <br />
+                bir parçası <br />
+                ol!
+              </h4>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- team start -->
+    <section id="team" class="mySection bg-light">
+      <div class="container">
+        <div class="text-center mb-5 pb-3">
+          <h2 class="s-heading text-uppercase fw-bold">Ekibimiz</h2>
+          <h3 class="s-subheading text-muted">
+            Bir Aile Gibi Olduğumuz Ekibimiz
+          </h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="t-member text-center">
+              <img
+                class="mx-auto rounded-circle"
+                src="img/team/yusuf.jpeg"
+                alt=".."
+              />
+              <h4>Yusuf SÖNMEZ</h4>
+              <p class="text-muted">Arka Yüz Geliştirici</p>
+              <a href="#" class="btn btn-danger mx-2 text-white btn-social">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="btn btn-primary mx-2 btn-social">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="#" class="btn btn-dark mx-2 btn-social">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="t-member text-center">
+              <img
+                class="mx-auto rounded-circle"
+                src="img/team/yusuf.jpeg"
+                alt=".."
+              />
+              <h4>Yusuf SÖNMEZ</h4>
+              <p class="text-muted">Arka Yüz Geliştirici</p>
+              <a href="#" class="btn btn-danger mx-2 text-white btn-social">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="btn btn-primary mx-2 btn-social">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="#" class="btn btn-dark mx-2 btn-social">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="t-member text-center">
+              <img
+                class="mx-auto rounded-circle"
+                src="img/team/yusuf.jpeg"
+                alt=".."
+              />
+              <h4>Yusuf SÖNMEZ</h4>
+              <p class="text-muted">Arka Yüz Geliştirici</p>
+              <a href="#" class="btn btn-danger mx-2 text-white btn-social">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="btn btn-primary mx-2 btn-social">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="#" class="btn btn-dark mx-2 btn-social">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="text-muted">
+              BigBox Studio ailesi olarak, her birimiz birbirimize değer
+              katmanın ve birlikte muazzam projeler üretmenin heyecanını
+              yaşıyoruz. Ekip olarak samimiyet, dürüstlük ve paylaşımı ön planda
+              tutuyor, birbirimizin güçlü yönlerini birleştirerek başarıyı inşa
+              ediyoruz. Her gün, yaratıcılığımızı ve işimize olan bağlılığımızı
+              bir adım daha ileri taşıyarak, müşterilerimize ve endüstriye değer
+              katmak için birlikte çalışıyoruz. Biz bir aileyiz, birbirimizi
+              destekliyoruz ve bu yolda keyifli bir şekilde ilerliyoruz.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- team end -->
+
+    <!-- contact start -->
+    <section id="contact" class="mySection">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="s-heading text-uppercase fw-bold text-white">İletişim</h2>
+          <h3 class="s-subheading text-muted text-white-50">
+            Bizimle iletişime geç ve mesajını gönder. Size geri dönüş
+            sağlayalım.
+          </h3>
+        </div>
+        <form id="FrmContact" novalidate>
+          <div class="row align-items-stretch mb-5">
+            <div class="col-md-6">
+              <div class="form-floating mb-4">
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="İsim"
+                  required
+                />
+                <label for="name">Adınız</label>
+                <div class="invalid-feedback" id="ErrName"></div>
+              </div>
+              <div class="form-floating mb-4">
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Eposta"
+                  required
+                />
+                <label for="email">Eposta Adresiniz</label>
+                <div class="invalid-feedback" id="ErrEmail"></div>
+              </div>
+              <div class="form-floating mb-4">
+                <input
+                  type="tel"
+                  id="phone"
+                  class="form-control"
+                  placeholder="Telefon"
+                  required
+                />
+                <label for="phone">Telefon Numaranız</label>
+                <div class="invalid-feedback" id="ErrPhone"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-floating form-textarea mb-md-0">
+                <textarea
+                  required
+                  class="form-control"
+                  id="message"
+                  placeholder="Mesaj"
+                ></textarea>
+                <label for="message">Mesajınız</label>
+                <div class="invalid-feedback" id="ErrMessage"></div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button
+              type="submit"
+              class="btn btn-danger btn-lg text-uppercase py-3"
+            >
+              Mesaj Gönder
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <footer class="footer py-4 bg-dark">
+      <div class="container">
+        <div class="row align-items-center text-white-50">
+          <div class="col-lg-4 text-lg-start">Copyright &copy Bigbox 2023</div>
+          <div class="col-lg-4 my-3 my-lg-0">
+            <a href="#" class="btn btn-danger mx-2 text-white btn-social">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" class="btn btn-primary mx-2 btn-social">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="#" class="btn btn-dark mx-2 btn-social">
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="#" class="link-info text-decoration-none me-3"
+              >Gizlilik Politikası</a
+            >
+            <a href="#" class="link-secondary text-decoration-none">Anasayfa</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!-- portfolio modals -->
+    <!-- modal 1 -->
+    <div
+      class="modal fade p-modal"
+      id="PModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="MyTitle1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content py-5 text-center">
+          <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+            <img src="img/close-icon.svg" alt=".." />
+          </div>
+          <div class="modal-body">
+            <h2 class="text-uppercase mb-3" id="myTitle1">Gökyüzü</h2>
+            <p class="p-intro text-muted mb-4 fst-italic col-lg-8 mx-auto">
+              "Gökyüzü" adlı illüstrasyon çalışmamızla doğanın güzelliklerini
+              yansıtıyoruz.
+            </p>
+            <img
+              class="img-fluid d-block mx-auto"
+              src="img/portfolio/1.png"
+              alt=".."
+            />
+            <p class="my-4 col-lg-8 mx-auto">
+              "Gökyüzü İllüstrasyonu," BigBox Studio'nun doğanın güzelliklerini
+              yansıttığı benzersiz bir sanat eseridir. Bu illüstrasyon,
+              gökyüzünün sakinliğini ve büyüsünü yakalayarak izleyiciye doğanın
+              kusursuzluğunu sunmayı amaçlar. Renk paletini doğanın zengin
+              tonlarından esinlenerek seçtik. Bulutların hafifliği, gün
+              batımının sıcak tonları ve yıldızların parıltısı,
+              illüstrasyonumuzda bir araya gelerek izleyicilere doğanın
+              büyüleyici anlarını hatırlatır. Bu eser, içsel huzur ve hayal
+              gücünü teşvik etmeyi amaçlar. Gökyüzü İllüstrasyonu, sanat ve
+              teknolojinin uyumlu bir birleşimini temsil eder.
+            </p>
+            <ul class="list-inline mb-4">
+              <li><strong>Müşteri: </strong> Karaprens</li>
+              <li><strong>Kategori: </strong> illüstrasyon</li>
+            </ul>
+            <button
+              class="btn btn-danger btn-lg text-uppercase py-1 py-md-3"
+              data-bs-dismiss="modal"
+              type="button"
+            >
+              Projeyi Kapat <i class="bi bi-x-lg ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal 2 -->
+    <div
+      class="modal fade p-modal"
+      id="PModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="MyTitle1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content py-5 text-center">
+          <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+            <img src="img/close-icon.svg" alt=".." />
+          </div>
+          <div class="modal-body">
+            <h2 class="text-uppercase mb-3" id="myTitle2">Zootivity</h2>
+            <p class="p-intro text-muted mb-4 fst-italic col-lg-8 mx-auto">
+              Zootivity, çocukların hayvan dünyasına muhteşem bir yolculuk sunan
+              yaratıcı ve eğlenceli bir projedir. Bu platform, çocuklara kendi
+              hayvanlarını yaratma özgürlüğü tanır ve hayal güçlerini
+              sınırlarını zorlamaları için teşvik eder.
+            </p>
+            <img
+              class="img-fluid d-block mx-auto"
+              src="img/Zootivity.jpeg"
+              alt=".."
+            />
+            <p class="my-4 col-lg-8 mx-auto">
+              Zootivity, çocukların hayvan dünyasını keşfettikleri, kendi eşsiz
+              yaratıklarını yarattıkları bir platformdur. Renkli ve interaktif
+              bir deneyim sunan Zootivity, çocukları hayal güçlerini kullanmaya
+              teşvik eder. Güvenli bir çevrimiçi ortamda, çocuklar
+              yaratıcılıklarını serbest bırakabilir ve oluşturdukları hayvanları
+              arkadaşlarıyla paylaşabilirler. Zootivity ile çocuğunuzun
+              dünyasına eğlenceli bir dokunuş katın!
+            </p>
+            <ul class="list-inline mb-4">
+              <li><strong>Müşteri: </strong> Bigbox Ent.</li>
+              <li><strong>Kategori: </strong> Oyun Tasarımı</li>
+            </ul>
+            <button
+              class="btn btn-danger btn-lg text-uppercase py-1 py-md-3"
+              data-bs-dismiss="modal"
+              type="button"
+            >
+              Projeyi Kapat <i class="bi bi-x-lg ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal 3 -->
+    <div
+      class="modal fade p-modal"
+      id="PModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="MyTitle1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content py-5 text-center">
+          <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+            <img src="img/close-icon.svg" alt=".." />
+          </div>
+          <div class="modal-body">
+            <h2 class="text-uppercase mb-3" id="myTitle3">Quizle</h2>
+            <p class="p-intro text-muted mb-4 fst-italic col-lg-8 mx-auto">
+              BigBox Studio, meraklı zihinler için eğlenceli ve bilgi dolu bir
+              yolculuk sunar: Quizle! Quizle, çeşitli kategorilerdeki zengin
+              içeriğiyle, kullanıcılarına eğlenceli ve öğretici bir deneyim vaat
+              ediyor.
+            </p>
+            <img
+              class="img-fluid d-block mx-auto"
+              src="img/quizle.jpeg"
+              alt=".."
+            />
+            <p class="my-4 col-lg-8 mx-auto">
+              BigBox Studio'nun yaratıcı dokunuşuyla hayat bulan Quizle,
+              eğlenceli quizleriyle bilgi dolu anlar sunuyor. Geniş kategori
+              seçenekleri ve yaratıcı sorularıyla kullanıcıları kendine çeken bu
+              platform, kişiselleştirilmiş deneyim ve topluluk oluşturma
+              imkanları sunarak öne çıkıyor. Arkadaşlarınızla rekabet edin veya
+              dünya genelindeki diğer kullanıcılarla tanışarak quiz
+              yeteneklerinizi test edin. Quizle ile bilgi ve eğlenceyi bir araya
+              getirin, hemen katılın!
+            </p>
+            <ul class="list-inline mb-4">
+              <li><strong>Müşteri: </strong> PixelPulse</li>
+              <li><strong>Kategori: </strong> Web Tasarımı</li>
+            </ul>
+            <button
+              class="btn btn-danger btn-lg text-uppercase py-1 py-md-3"
+              data-bs-dismiss="modal"
+              type="button"
+            >
+              Projeyi Kapat <i class="bi bi-x-lg ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal 4 -->
+    <div
+      class="modal fade p-modal"
+      id="PModal4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="MyTitle1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content py-5 text-center">
+          <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+            <img src="img/close-icon.svg" alt=".." />
+          </div>
+          <div class="modal-body">
+            <h2 class="text-uppercase mb-3" id="myTitle4">DMRF-Unet</h2>
+            <p class="p-intro text-muted mb-4 fst-italic col-lg-8 mx-auto">
+              BigBox Studio, mükemmeliyeti hedefleyen ve teknolojiye yaratıcı
+              bir dokunuş katan bir proje sunuyor: DMRF-Unet ile güçlendirilmiş
+              Bit GPR radar sistemi.
+            </p>
+            <img
+              class="img-fluid d-block mx-auto"
+              src="img/DMRF-Unet.jpeg"
+              alt=".."
+            />
+            <p class="my-4 col-lg-8 mx-auto">
+              BigBox Studio'nun imzasını taşıyan DMRF-Unet ile güçlendirilmiş
+              Bit GPR radar sistemi, yeraltındaki nesneleri yüksek çözünürlükte
+              tespit etmek için öncü bir teknoloji sunar. Bu proje, makine
+              öğrenmesi algoritmalarıyla güçlendirilen Bit GPR radar sistemi
+              sayesinde endüstriyel uygulamalarda çığır açmayı amaçlar.
+            </p>
+            <ul class="list-inline mb-4">
+              <li><strong>Müşteri: </strong> SureDetect</li>
+              <li><strong>Kategori: </strong> Makine Öğrenmesi</li>
+            </ul>
+            <button
+              class="btn btn-danger btn-lg text-uppercase py-1 py-md-3"
+              data-bs-dismiss="modal"
+              type="button"
+            >
+              Projeyi Kapat <i class="bi bi-x-lg ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal 5 -->
+    <div
+      class="modal fade p-modal"
+      id="PModal5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="MyTitle1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content py-5 text-center">
+          <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+            <img src="img/close-icon.svg" alt=".." />
+          </div>
+          <div class="modal-body">
+            <h2 class="text-uppercase mb-3" id="myTitle5">
+              Prostat Kanseri Sınıflandırma Modeli
+            </h2>
+            <p class="p-intro text-muted mb-4 fst-italic col-lg-8 mx-auto">
+              BigBox Studio, sağlık teknolojilerine getirdiği yaratıcı ve
+              etkileyici çözümlere bir yenisini ekliyor: Prostat kanseri
+              sınıflandırma modeli. Bu yenilikçi proje, makine öğrenmesi
+              algoritmalarıyla desteklenen sınıflandırma modellerini kullanarak
+              prostat kanseri teşhisi konusunda önemli bir ilerleme sunuyor.
+            </p>
+            <img
+              class="img-fluid d-block mx-auto"
+              src="img/machineLearning.jpeg"
+              alt=".."
+            />
+            <p class="my-4 col-lg-8 mx-auto">
+              Bu proje, büyük veri kümelerini analiz eden ve prostat kanseri
+              hücrelerini tanımlamak için geliştirilmiş sınıflandırma
+              algoritmalarını içerir. Yüksek hassasiyet ve doğrulukla çalışan bu
+              model, erken teşhisin gücünü artırarak tedavi süreçlerine katkıda
+              bulunur. Makine öğrenmesiyle geliştirilen bu sınıflandırma modeli,
+              erken evredeki prostat kanseri belirtilerini tespit etme konusunda
+              etkili bir araç sunar. Erken teşhis, tedavi başarısını artırabilir
+              ve hastaların yaşam kalitesini iyileştirebilir. Projemiz,
+              hastaların genetik ve klinik verilerini analiz ederek
+              özelleştirilmiş bir yaklaşım sunar. Bu sayede her hasta için daha
+              doğru ve etkili bir teşhis sağlanır. BigBox Studio olarak, sağlık
+              teknolojilerindeki bu ilerici adımızla, prostat kanseri
+              sınıflandırma modelimizle endüstri standartlarını yeniden
+              belirliyoruz.
+            </p>
+            <ul class="list-inline mb-4">
+              <li><strong>Müşteri: </strong> Medipol</li>
+              <li><strong>Kategori: </strong> Makine Öğrenmesi</li>
+            </ul>
+            <button
+              class="btn btn-danger btn-lg text-uppercase py-1 py-md-3"
+              data-bs-dismiss="modal"
+              type="button"
+            >
+              Projeyi Kapat <i class="bi bi-x-lg ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal 6 -->
+    <div
+      class="modal fade p-modal"
+      id="PModal6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="MyTitle1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content py-5 text-center">
+          <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+            <img src="img/close-icon.svg" alt=".." />
+          </div>
+          <div class="modal-body">
+            <h2 class="text-uppercase mb-3" id="myTitle6">
+              E-Ticarette Yeni Bir Yüz
+            </h2>
+            <p class="p-intro text-muted mb-4 fst-italic col-lg-8 mx-auto">
+              BigBox Studio, dijital alışverişin ötesine geçen, kullanıcı
+              deneyimini ön planda tutan bir projeyi daha sunuyor: Ovam Market
+              E-Ticaret Sitesi. Bu yenilikçi platform, kullanıcılarına sadece
+              alışveriş değil, aynı zamanda keyifli bir online deneyim sunmayı
+              amaçlıyor.
+            </p>
+            <img
+              class="img-fluid d-block mx-auto"
+              src="img/E-ticaret.jpeg"
+              alt=".."
+            />
+            <p class="my-4 col-lg-8 mx-auto">
+              Ovam Market, kullanıcı dostu arayüzü ve zengin özellikleriyle
+              dikkat çeker. Mobil uyumluluk, hızlı ödeme seçenekleri, ve
+              kişiselleştirilmiş öneriler gibi özellikler, alışverişi daha
+              keyifli hale getirir. Ovam Market, herkesin ihtiyaçlarına uygun
+              geniş bir ürün yelpazesi sunar. Gıda ürünlerinden kişisel bakım
+              ürünlerine, teknolojik aletlerden ev dekorasyonuna kadar pek çok
+              kategoride yüksek kaliteli ürünler bulabilirsiniz. Müşteri
+              memnuniyetini ön planda tutan Ovam Market, düzenli olarak
+              kampanyalar ve özel indirimler sunar. Bu, kullanıcılara ekonomik
+              alışverişin keyfini çıkarma şansı verir. Ovam Market, güvenlik
+              önlemleriyle donatılmış bir altyapıya sahiptir. Hızlı ödeme
+              seçenekleri ve kolay iade süreçleriyle, müşterilerin alışveriş
+              deneyimi sorunsuz ve güvenilir olur. Ovam Market E-Ticaret Sitesi,
+              BigBox Studio'nun yaratıcılığı ve teknik uzmanlığını bir araya
+              getiren bir projedir. Online alışverişinizi daha keyifli ve
+              güvenli hale getirmek için Ovam Market'i keşfedin!
+            </p>
+            <ul class="list-inline mb-4">
+              <li><strong>Müşteri: </strong> Düş Penceresi</li>
+              <li><strong>Kategori: </strong> Fotoğrafçılık</li>
+            </ul>
+            <button
+              class="btn btn-danger btn-lg text-uppercase py-1 py-md-3"
+              data-bs-dismiss="modal"
+              type="button"
+            >
+              Projeyi Kapat <i class="bi bi-x-lg ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/custom/extra.js"></script>
+  </body>
+</html>
